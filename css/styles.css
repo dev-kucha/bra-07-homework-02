@@ -121,12 +121,12 @@ li .weather span {
     background-color: #666699;
 }
 
-li {
-    opacity:0.8;
+ul:hover li:not(:hover) {
+    opacity:0.6;
 }
-li:hover {
+/* li:hover {
     opacity: 1;
-}
+} */
 
 main ul {
     margin-bottom: 35px;
