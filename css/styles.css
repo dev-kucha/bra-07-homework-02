@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'fonte84c9b5584917e71ad22e0aaa55f28a1';
+        
+        src:    url('https://nomail.com.ua/files/eot/e84c9b5584917e71ad22e0aaa55f28a1.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/e84c9b5584917e71ad22e0aaa55f28a1.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/e84c9b5584917e71ad22e0aaa55f28a1.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'LucidaGrande';  src: local('LucidaGrande'), url('https://nomail.com.ua/files/woff/e84c9b5584917e71ad22e0aaa55f28a1.woff') format('woff'); }
+    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "LucidaGrande", "Lucida Sans Unicode",  sans-serif;
+    transition: all .1s ease-in;
+
+}
+body {
+    display: block;
+    background-color: #3399CC;
+    color: #ffffff;
+    margin: 60px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 986px;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    display: block;
+    list-style:none;
+    font-size: 0;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+}
+
+li {
+    display: inline-block;
+    height: 150px;
+    font-size: 24px;
+    border: 3px solid #ffffff;
+    text-align: center;
+    vertical-align:top ;
+    width: 20%;
+}
+
+li .city {
+    margin-top: 40px;
+}
+
+li .weather {
+    margin-top: 16px;
+    opacity: 0.7;
+}
+
+li .weather span {
+    margin-left: 12px;
+    font-size: 30px;
+}
+
+.percent25 {
+    width: 25%;
+}
+
+.persent50 {
+    width: 50%;
+}
+
+.percent100 {
+    width: 100%;
+}
+
+.color-blue {
+    background-color: #3399cc;
+}
+
+.color-red {
+    background-color: #c24747;
+}
+
+.color-orange {
+    background-color: #e2674a;
+}
+
+.color-yellow {
+    background-color: #ffcc66;
+}
+
+.color-lightgreen {
+    background-color: #99cc99;
+}
+
+.color-khaki {
+    background-color: #669999;
+}
+
+.color-pink {
+    background-color: #cc6699;
+}
+
+.color-green {
+    background-color: #339966;
+}
+
+.color-biruza {
+    background-color: #33cccc;
+}
+
+.color-siren {
+    background-color: #996699;
+}
+
+.color-fiolet {
+    background-color: #666699;
+}
+
+li {
+    opacity:0.8;
+}
+li:hover {
+    opacity: 1;
+}
+
+main ul {
+    margin-bottom: 35px;
+}
